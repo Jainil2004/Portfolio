@@ -135,7 +135,6 @@ header img, div{
     width: 532px;
     height: 400px;
     border-radius: 5%;
-
 }
 
 #about_me_content{
@@ -249,4 +248,40 @@ margin-right: 10%;
 }
 #projects li{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#linkedin_image{
+    height: 50px;
+    width: 60px;
+    padding-left: 5px; 
+}
+
+#instagram_logo{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+
+}
+
+#github_logo{
+    height: 50px;
+    padding-left: 5px;
+    width: 50px;
+}
+
+#hackerrank_logo{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+}
+
+a.contact_me_img {
+    all:unset;
+}
+
+.contact_me_img img{
+    transition: transform 0.3s ease;
+}
+.contact_me_img:hover img{
+    transform: scale(1.1);
 }
